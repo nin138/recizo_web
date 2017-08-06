@@ -1,0 +1,54 @@
+.main {
+  $divider-border: solid 4px;
+  $space-size: 4rem;
+  margin: 0 $space-size;
+  background: $color-white-bg;
+  padding: $space-size;
+  &__h1 {
+    margin-bottom: $space-size;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    &__border {
+      flex: 1;
+      display: block;
+      border-bottom: $divider-border;
+    }
+    &__title {
+      flex: 2;
+      padding: 0 2rem;
+      font-size: 3rem;
+      &-after{
+        font-size: 1.5rem;
+      }
+    }
+  }
+  &__border {
+    border-bottom: $divider-border;
+    width: 100%;
+    display: block;
+    margin: $space-size 0;
+  }
+
+  &__h2 {
+    margin: 2rem auto;
+    width: 70%;
+    text-align: center;
+    display: block;
+    font-size: 2rem;
+    padding: 1rem;
+    background: $color-primary;
+    border-radius: 1.5rem/50%;
+  }
+  &__content-wrap{
+    font-size: 1.5rem;
+    display: flex;
+    text-align: center;
+    &__item {
+      margin: 1rem;
+      flex: 1;
+      &__img {
+      }
+    }
+  }
+}

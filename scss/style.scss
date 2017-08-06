@@ -2,4 +2,13 @@
 @import "foundation/reset";
 @import "foundation/variable";
 //
+body {
+  background: $color-bg;
+}
+p {
+  letter-spacing: 2px;
+  line-height: 1.5rem;
+}
 @import "header";
+@import "main";
+@import "util";
