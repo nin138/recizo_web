@@ -1,7 +1,7 @@
 .main {
   $divider-border: solid 4px;
   $space-size: 4rem;
-  margin: 0 $space-size;
+  margin: 0 $space-size $space-size;
   background: $color-white-bg;
   padding: $space-size;
   &__h1 {
@@ -65,13 +65,22 @@
         &__point {
           display: inline-block;
           padding: 1rem;
-          border-radius: 1rem;
+          border-radius: 2rem;
           font-size: 2rem;
           color: #fff;
           background: $color-primary;
+          margin-bottom: 1rem;
         }
-        &__
+        &__h3 {
+          font-size: 2rem;
+          margin-bottom: 2rem;
+        }
       }
     }
+  }
+  &__dl-area {
+    text-align: center;
+    font-size: 2rem;
+    margin: $space-size;
   }
 }
