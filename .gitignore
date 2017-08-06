@@ -5,6 +5,4 @@
 *.log
 test.*
 .sass-cache
-dist
-*.css
 *.map
