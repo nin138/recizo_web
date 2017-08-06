@@ -1,0 +1,12 @@
+{
+  "name": "recizo_web",
+  "version": "1.0.0",
+  "scripts": {
+    "watch": "sass --style expanded --watch css:dist/css",
+    "sass": "sass --sourcemap=none --style compressed scss/style.scss:docs/style.css"
+  },
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}
