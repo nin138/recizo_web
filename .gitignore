@@ -3,6 +3,8 @@
 .AppleDouble
 .LSOverride
 *.log
-dist
 test.*
 .sass-cache
+dist
+*.css
+*.map

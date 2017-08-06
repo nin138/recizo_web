@@ -1,41 +1,29 @@
 .main {
-  $divider-border: solid 4px;
   $space-size: 4rem;
-  margin: 0 $space-size $space-size;
+  margin: 0 auto $space-size;
   background: $color-white-bg;
   padding: $space-size;
+  width: 70%;
   &__h1 {
     margin-bottom: $space-size;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    &__border {
-      flex: 1;
-      display: block;
-      border-bottom: $divider-border;
-    }
-    &__title {
-      flex: 2;
-      padding: 0 2rem;
-      font-size: 3rem;
-      &-after{
-        font-size: 1.5rem;
-      }
+    font-size: 4rem;
+    &__small{
+      font-size: 2rem;
     }
   }
   &__border {
-    border-bottom: $divider-border;
+    border-bottom: solid 4px;
     width: 100%;
     display: block;
     margin: $space-size 0;
   }
 
   &__h2 {
-    margin: 2rem auto;
+    margin: $space-size auto;
     width: 70%;
     text-align: center;
     display: block;
-    font-size: 2rem;
+    font-size: 3rem;
     padding: 1rem;
     background: $color-primary;
     border-radius: 1.5rem/50%;
@@ -59,9 +47,23 @@
   &__func-description-area {
     background: $color-bg;
     border-radius: 2rem;
-    padding: 2rem;
+    padding: $space-size;
+    margin: $space-size;
     &__wrap {
+      display: flex;
+      padding: 7%;
+      background: url("../img/pi_r.svg") no-repeat right top;
+      background-size: 10%;
+      &:nth-child(2n) {
+        background: url("../img/pi_l.svg") no-repeat left top;
+        background-size: 10%;
+        flex-direction: row-reverse;
+        & img {
+          margin: 0 $space-size 0 0;
+        }
+      }
       &__text {
+        flex: 1;
         &__point {
           display: inline-block;
           padding: 1rem;
@@ -76,11 +78,20 @@
           margin-bottom: 2rem;
         }
       }
+      &__img {
+        flex: 1;
+        height: 50%;
+        margin: 0 0 0 $space-size;
+      }
     }
   }
   &__dl-area {
-    text-align: center;
     font-size: 2rem;
-    margin: $space-size;
+    margin: $space-size 0;
+    &__banner {
+      width: 400px;
+      height: 200px;
+      margin: auto;
+    }
   }
 }

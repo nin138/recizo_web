@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "watch": "sass --style expanded --watch scss/style.scss:dist/style.css",
-    "sass": "sass --sourcemap=none --style compressed scss/style.scss:docs/style.css"
+    "sass": "sass --sourcemap=none --style compressed scss/style.scss:dist/style.css"
   },
   "devDependencies": {
   },

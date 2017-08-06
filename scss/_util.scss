@@ -1,3 +1,18 @@
 .align-center {
   text-align: center;
 }
+
+.side-border__container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.side-border__text {
+  flex: 2;
+  padding: 0 2rem;
+}
+.side-border__border {
+  flex: 1;
+  display: block;
+  border-bottom: solid 4px;
+}
