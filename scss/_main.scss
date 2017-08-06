@@ -51,4 +51,27 @@
       }
     }
   }
+  &__arrow {
+    display: block;
+    width: 50%;
+    margin: $space-size auto;
+  }
+  &__func-description-area {
+    background: $color-bg;
+    border-radius: 2rem;
+    padding: 2rem;
+    &__wrap {
+      &__text {
+        &__point {
+          display: inline-block;
+          padding: 1rem;
+          border-radius: 1rem;
+          font-size: 2rem;
+          color: #fff;
+          background: $color-primary;
+        }
+        &__
+      }
+    }
+  }
 }
