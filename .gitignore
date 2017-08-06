@@ -4,6 +4,5 @@
 .LSOverride
 *.log
 dist
-
-
-
+test.*
+.sass-cache
