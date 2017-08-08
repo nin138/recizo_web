@@ -115,7 +115,7 @@ header {
   background: #e6e6e6;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 760px) {
   header {
     height: 40vh;
   }
