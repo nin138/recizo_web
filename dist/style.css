@@ -129,6 +129,7 @@ header {
 }
 .main__h1 {
   font-weight: bold;
+  white-space: nowrap;
 }
 .main__border {
   border-bottom: solid 4px;

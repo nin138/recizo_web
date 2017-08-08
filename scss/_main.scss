@@ -6,6 +6,7 @@
   margin: auto;
   &__h1 {
     font-weight: bold;
+    white-space: nowrap;
   }
   &__border {
     border-bottom: solid 4px;
