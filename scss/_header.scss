@@ -3,3 +3,9 @@ header {
   height: calc(100vh - 12rem);
   background: #e6e6e6;
 }
+@media (max-width:480px){
+  header {
+    //height: auto; TODO after img
+    height: 40vh;
+  }
+}

@@ -1,0 +1,43 @@
+.main {
+  &__h1 {
+    &__small{
+    }
+  }
+  &__border {
+  }
+
+  &__h2 {
+  }
+  &__content-wrap{
+    &__item {
+      &--2 {
+      }
+      &--3 {
+      }
+      &__img {
+      }
+    }
+  }
+  &__arrow {
+  }
+  &__func-description-area {
+    &__wrap {
+      &:nth-child(2n) {
+        & img {
+        }
+      }
+      &__text {
+        &__point {
+        }
+        &__h3 {
+        }
+      }
+      &__img {
+      }
+    }
+  }
+  &__dl-area {
+    &__banner {
+    }
+  }
+}
