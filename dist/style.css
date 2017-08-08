@@ -248,6 +248,9 @@ header {
   .main__func-description-area__wrap__text__h3 {
     font-size: 1.2rem;
   }
+  .main__func-description-area__wrap__img {
+    margin: 15% 10% 0;
+  }
   .main__dl-area {
     margin: 2rem 0;
     font-size: 1.2rem;
