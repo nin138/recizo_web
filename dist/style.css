@@ -257,6 +257,26 @@ header {
   .main__content-wrap__item--3 {
     width: 100%;
   }
+  .main__arrow {
+    margin: 2rem auto;
+  }
+  .main__func-description-area {
+    padding: 1rem;
+  }
+  .main__func-description-area__wrap {
+    flex-direction: column;
+  }
+  .main__func-description-area__wrap img {
+    position: relative;
+  }
+  .main__func-description-area__wrap img::before {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: -5rem;
+    content: url("../img/pi_r.svg");
+  }
 }
 .align-center {
   text-align: center;
