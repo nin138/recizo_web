@@ -29,6 +29,7 @@
           margin: .5rem;
         }
         &--3 {
+          margin: 1rem;
           width: 100%;
         }
       }
@@ -40,16 +41,18 @@
       padding: 1rem;
       &__wrap {
         flex-direction: column;
+        padding: .5rem;
         &__text {
           &__point {
             display: none;
           }
           &__h3 {
+            font-size: 1.2rem;
           }
         }
         &__img {
           position: relative;
-          margin: .5rem;
+          margin: 1rem;
           &::before {
             position: absolute;
             display: block;
@@ -63,6 +66,8 @@
       }
     }
     &__dl-area {
+      margin: $space-s 0;
+      font-size: 1.2rem;
       &__banner {
       }
     }
