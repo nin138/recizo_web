@@ -172,12 +172,22 @@ header {
   margin-bottom: 1rem;
 }
 .main__func-description-area__wrap__text__h3 {
-  font-size: 1.5rem;
   margin-bottom: 2rem;
 }
 .main__func-description-area__wrap__img {
   flex: 1;
   height: 50%;
+  position: relative;
+  margin: 1rem;
+}
+.main__func-description-area__wrap__img::before {
+  position: absolute;
+  display: block;
+  width: 20%;
+  height: 20%;
+  top: -15%;
+  right: -15%;
+  content: url("../img/pi_r.svg");
 }
 .main__dl-area {
   font-size: 2rem;
@@ -185,9 +195,10 @@ header {
 }
 .main__dl-area__banner {
   margin: auto;
+  max-width: 400px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 760px) {
   .main {
     width: 90%;
     padding: 5%;
@@ -237,62 +248,35 @@ header {
   .main__func-description-area__wrap__text__h3 {
     font-size: 1.2rem;
   }
-  .main__func-description-area__wrap__img {
-    position: relative;
-    margin: 1rem;
-  }
-  .main__func-description-area__wrap__img::before {
-    position: absolute;
-    display: block;
-    width: 20%;
-    height: 20%;
-    top: -15%;
-    right: -15%;
-    content: url("../img/pi_r.svg");
-  }
   .main__dl-area {
     margin: 2rem 0;
     font-size: 1.2rem;
   }
 }
-@media (min-width: 481px) {
+@media (min-width: 761px) {
   .main {
-    font-family: 'Rounded Mplus 1c', Hiragino Kaku Gothic ProN, Arial, Meiryo, sans-serif;
-    margin: 0 auto 4rem;
-    background: #fff;
-    padding: 4rem 6rem 6rem;
-    box-sizing: border-box;
     width: 80%;
-    max-width: 1200px;
+    padding: 4rem 10% 0;
   }
   .main__h1 {
     margin-bottom: 4rem;
     font-size: 4rem;
-    font-weight: bold;
   }
   .main__h1__small {
     font-size: 2rem;
   }
   .main__border {
-    border-bottom: solid 4px;
-    width: 100%;
-    display: block;
     margin: 4rem 0;
   }
   .main__h2 {
     margin: 4rem auto;
     width: 70%;
-    text-align: center;
-    display: block;
     font-size: 1.8rem;
     padding: 1rem;
-    background: #f7931e;
     border-radius: 1.5rem/50%;
   }
   .main__content-wrap {
     font-size: 1.5rem;
-    display: flex;
-    text-align: center;
   }
   .main__content-wrap__item--2 {
     margin: 1rem;
@@ -302,62 +286,28 @@ header {
     margin: 1rem;
     width: calc(100% / 3 - 2rem);
   }
-  .main__content-wrap__item__img {
-    width: 100%;
-  }
   .main__arrow {
-    display: block;
-    width: 50%;
     margin: 4rem auto;
   }
   .main__func-description-area {
-    background: #ffe6b2;
-    border-radius: 2rem;
     padding: 4rem;
   }
   .main__func-description-area__wrap {
-    display: flex;
-    padding: 7%;
-    background: url("../img/pi_r.svg") no-repeat right top;
-    background-size: 10%;
+    justify-content: space-between;
+    margin-bottom: 2rem;
   }
   .main__func-description-area__wrap:nth-child(2n) {
-    background: url("../img/pi_l.svg") no-repeat left top;
-    background-size: 10%;
     flex-direction: row-reverse;
-  }
-  .main__func-description-area__wrap:nth-child(2n) img {
-    margin: 0 4rem 0 0;
-  }
-  .main__func-description-area__wrap__text {
-    flex: 1;
-  }
-  .main__func-description-area__wrap__text__point {
-    display: inline-block;
-    padding: .5rem;
-    border-radius: 2rem;
-    font-size: 1.2rem;
-    color: #fff;
-    background: #f7931e;
-    margin-bottom: 1rem;
   }
   .main__func-description-area__wrap__text__h3 {
     font-size: 1.5rem;
-    margin-bottom: 2rem;
   }
-  .main__func-description-area__wrap__img {
-    flex: 1;
-    height: 50%;
-    margin: 0 0 0 4rem;
+  .main__func-description-area__wrap:nth-child(2n) .main__func-description-area__wrap__img::before {
+    left: -15%;
+    content: url("../img/pi_l.svg");
   }
   .main__dl-area {
-    font-size: 2rem;
     margin: 4rem 0;
-  }
-  .main__dl-area__banner {
-    width: 400px;
-    height: 200px;
-    margin: auto;
   }
 }
 .align-center {
@@ -381,7 +331,7 @@ header {
   border-bottom: solid 4px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 760px) {
   .side-border__text {
     flex: 5;
     padding: 0 .5rem;

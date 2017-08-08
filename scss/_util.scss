@@ -15,7 +15,7 @@
   display: block;
   border-bottom: solid 4px;
 }
-@media (max-width:480px){
+@media (max-width:$breakpoint){
   .side-border__text {
     flex: 5;
     padding: 0 .5rem;

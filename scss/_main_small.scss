@@ -1,4 +1,4 @@
-@media (max-width:480px) {
+@media (max-width:$breakpoint) {
   $space-s: 2rem;
   .main {
     width: 90%;
@@ -51,17 +51,7 @@
           }
         }
         &__img {
-          position: relative;
-          margin: 1rem;
-          &::before {
-            position: absolute;
-            display: block;
-            width: 20%;
-            height: 20%;
-            top: -15%;
-            right: -15%;
-            content: url("../img/pi_r.svg");
-          }
+
         }
       }
     }
