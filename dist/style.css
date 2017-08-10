@@ -354,6 +354,10 @@ header {
     transform: rotate(10deg);
   }
 }
+.animation1 {
+  transition: all 1s;
+  transform: translateY(100vh);
+}
 .animation1:hover {
   animation-duration: .2s;
   animation-name: animation1;
