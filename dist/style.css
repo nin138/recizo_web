@@ -161,7 +161,7 @@ header {
   display: flex;
 }
 .main__func-description-area__wrap__text {
-  flex: 1;
+  flex: 1 1;
 }
 .main__func-description-area__wrap__text__point {
   display: inline-block;
@@ -176,7 +176,7 @@ header {
   margin-bottom: 2rem;
 }
 .main__func-description-area__wrap__img {
-  flex: 1;
+  flex: 1 1;
   height: 50%;
   position: relative;
   margin: 1rem;
@@ -185,10 +185,14 @@ header {
   position: absolute;
   display: block;
   width: 20%;
-  height: 20%;
-  top: -15%;
-  right: -15%;
+  height: auto;
+  top: -10%;
+  right: -10%;
   content: url("../img/pi_r.svg");
+}
+.main__func-description-area__wrap__img__main {
+  width: 100%;
+  height: auto;
 }
 .main__dl-area {
   font-size: 2rem;
