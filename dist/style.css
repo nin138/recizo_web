@@ -159,6 +159,7 @@ header {
 }
 .main__func-description-area__wrap {
   display: flex;
+  align-items: center;
 }
 .main__func-description-area__wrap__text {
   flex: 1 1;
@@ -344,6 +345,50 @@ header {
     flex: 5;
     padding: 0 .5rem;
   }
+}
+@keyframes animation1 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(10deg);
+  }
+}
+.animation1:hover {
+  animation-duration: .2s;
+  animation-name: animation1;
+  animation-iteration-count: 1;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes animation2 {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(2rem);
+  }
+}
+.animation2:hover {
+  animation-duration: .2s;
+  animation-name: animation2;
+  animation-iteration-count: 1;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes animation3 {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-2rem);
+  }
+}
+.animation3:hover {
+  animation-duration: .2s;
+  animation-name: animation3;
+  animation-iteration-count: 1;
+  animation-direction: alternate-reverse;
 }
 
 /*# sourceMappingURL=style.css.map */
