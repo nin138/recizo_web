@@ -203,6 +203,10 @@ header {
   margin: auto;
   max-width: 400px;
 }
+.main__dl-area__banner__img:hover {
+  cursor: pointer;
+  transform: scale(1.2, 1.2);
+}
 
 @media (max-width: 760px) {
   .main {
@@ -346,41 +350,7 @@ header {
     padding: 0 .5rem;
   }
 }
-@keyframes animation1 {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(10deg);
-  }
-}
-.animation1 {
-  transition: all 1s;
-  transform: translateY(100vh);
-}
-.animation1:hover {
-  animation-duration: .2s;
-  animation-name: animation1;
-  animation-iteration-count: 1;
-  animation-direction: alternate-reverse;
-}
-
-@keyframes animation2 {
-  from {
-    transform: translateY(0);
-  }
-  to {
-    transform: translateY(2rem);
-  }
-}
-.animation2:hover {
-  animation-duration: .2s;
-  animation-name: animation2;
-  animation-iteration-count: 1;
-  animation-direction: alternate-reverse;
-}
-
-@keyframes animation3 {
+@keyframes animation {
   from {
     transform: translateY(0);
   }
@@ -388,9 +358,13 @@ header {
     transform: translateY(-2rem);
   }
 }
-.animation3:hover {
+.animation {
+  transition: all 1s;
+  opacity: 0;
+}
+.animation:hover {
   animation-duration: .2s;
-  animation-name: animation3;
+  animation-name: animation;
   animation-iteration-count: 1;
   animation-direction: alternate-reverse;
 }
@@ -405,6 +379,12 @@ header {
   transition: all .5s ease-in;
   transform: translateY(-20vh);
   opacity: 0;
+}
+
+.main__func-description-area__wrap__text__point, .main__func-description-area__wrap__text__h3, .main__func-description-area__wrap__text__description {
+  transition: all .5s ease-in-out;
+  opacity: 0;
+  transform: translateY(-20vh);
 }
 
 /*# sourceMappingURL=style.css.map */

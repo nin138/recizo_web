@@ -81,6 +81,10 @@
     &__banner {
       margin: auto;
       max-width: 400px;
+      &__img:hover {
+        cursor: pointer;
+        transform: scale(1.2, 1.2);
+      }
     }
   }
 }
