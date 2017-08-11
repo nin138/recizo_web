@@ -31,14 +31,20 @@
   }
 }
 .animation {
-  &:hover {
+  &:hover img {
     animation-duration: .2s;
     animation-name: animation;
     animation-iteration-count: 1;
     animation-direction: alternate-reverse;
   }
+  &:hover:before {
+    animation-delay: .2s;
+    animation-duration: .2s;
+    animation-name: animation;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;
+  }
 }
-
 
 .slide-in-item {
   transition: all .5s ease-in;
