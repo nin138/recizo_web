@@ -12,7 +12,6 @@
         onElementInView(content1);
         setTimeout(() => { onElementInView(items[0]) }, 300);
         setTimeout(() => { onElementInView(items[1]) }, 600);
-
       }
       Array.prototype.forEach.call(slide_label, (l, i) => {
         if(isInView(l)) {
@@ -29,7 +28,7 @@
           setTimeout(() => { onElementInView(l.getElementsByClassName("main__func-description-area__wrap__text__h3")[0]); }, delay);
           setTimeout(() => { onElementInView(l.getElementsByClassName("main__func-description-area__wrap__text__description")[0]); }, delay * 2);
           setTimeout(() => {
-            const el = l.getElementsByClassName("main__func-description-area__wrap__img")[0]
+            const el = l.getElementsByClassName("main__func-description-area__wrap__img")[0];
             onElementInView(el);
             setTimeout(() => { el.classList.add("animation"); }, 500);
           }, delay * 3);
@@ -38,10 +37,10 @@
     });
   });
   function onElementInView(element) {
-    element.style.opacity = "1";
-    element.style.transform = "translateY(0)";
+    window.requestAnimationFrame(() => {
+      element.style.opacity = "1";
+      element.style.transform = "translateY(0)";
+    });
   }
-  function isInView(element) {
-    return (element.getBoundingClientRect().top < windowSize*0.7)
-  }
+  function isInView(element) { return (element.getBoundingClientRect().top < windowSize*0.7)}
 })();
