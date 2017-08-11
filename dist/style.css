@@ -152,7 +152,7 @@ header {
   transition: all 0.5s;
   transform: translateY(-20vh);
 }
-.main__content-wrap__item__img {
+.main__content-wrap__img {
   width: 100%;
 }
 .main__arrow {
@@ -210,6 +210,7 @@ header {
   font-weight: bold;
 }
 .main__dl-area__banner {
+  width: 100%;
   margin: auto;
   max-width: 400px;
 }
