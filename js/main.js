@@ -26,14 +26,12 @@
         if(isInView(l)) {
           const delay = 300;
           onElementInView(l.getElementsByClassName("main__func-description-area__wrap__text__point")[0]);
+          setTimeout(() => { onElementInView(l.getElementsByClassName("main__func-description-area__wrap__text__h3")[0]); }, delay);
+          setTimeout(() => { onElementInView(l.getElementsByClassName("main__func-description-area__wrap__text__description")[0]); }, delay * 2);
           setTimeout(() => {
-            onElementInView(l.getElementsByClassName("main__func-description-area__wrap__text__h3")[0]);
-          }, delay);
-          setTimeout(() => {
-            onElementInView(l.getElementsByClassName("main__func-description-area__wrap__text__description")[0]);
-          }, delay * 2);
-          setTimeout(() => {
-            onElementInView(l.getElementsByClassName("main__func-description-area__wrap__img")[0])
+            const el = l.getElementsByClassName("main__func-description-area__wrap__img")[0]
+            onElementInView(el);
+            setTimeout(() => { el.classList.add("animation"); }, 500);
           }, delay * 3);
         }
       });

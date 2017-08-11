@@ -188,6 +188,9 @@ header {
   height: 50%;
   position: relative;
   margin: 1rem;
+  transition: all 1s;
+  opacity: 0;
+  transform: translateY(20vh);
 }
 .main__func-description-area__wrap__img::before {
   position: absolute;
@@ -364,11 +367,6 @@ header {
   to {
     transform: translateY(-2rem);
   }
-}
-.animation {
-  transition: all 1s;
-  opacity: 0;
-  transform: translateY(20vh);
 }
 .animation:hover {
   animation-duration: .2s;

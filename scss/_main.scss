@@ -68,6 +68,9 @@
         height: 50%;
         position: relative;
         margin: 1rem;
+        transition: all 1s;
+        opacity: 0;
+        transform: translateY(20vh);
         &::before {
           position: absolute;
           display: block;
