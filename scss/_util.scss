@@ -72,3 +72,15 @@
     animation-direction: alternate-reverse;
   }
 }
+
+
+.slide-in-item {
+  transition: all .5s ease-in;
+  transform: translateY(20vh);
+  opacity: 0;
+}
+.slide-reverse {
+  transition: all .5s ease-in;
+  transform: translateY(-20vh);
+  opacity: 0;
+}
