@@ -140,10 +140,17 @@ header {
   text-align: center;
   display: block;
   background: #f7931e;
+  transition: all 0.5s;
+  transform: translateY(-3rem);
 }
 .main__content-wrap {
   display: flex;
   text-align: center;
+}
+.main__content-wrap__item--2 {
+  opacity: 0;
+  transition: all 0.5s;
+  transform: translateY(-20vh);
 }
 .main__content-wrap__item__img {
   width: 100%;
@@ -361,6 +368,7 @@ header {
 .animation {
   transition: all 1s;
   opacity: 0;
+  transform: translateY(20vh);
 }
 .animation:hover {
   animation-duration: .2s;
