@@ -278,6 +278,7 @@ header {
   .main__content-wrap__item--3 {
     margin: 1rem;
     width: 100%;
+    font-size: 1.2rem;
   }
   .main__arrow {
     margin: 2rem auto;
