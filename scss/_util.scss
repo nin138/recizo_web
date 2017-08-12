@@ -62,4 +62,19 @@
   transform: translateY(-20vh);
 }
 
+.hu {
+  animation: hu 1s ease-in forwards;
+}
+
+@keyframes hu {
+  0% {
+    opacity: 0;
+    transform: scale(.2); }
+  70% { transform: scale(1.1); }
+  80% { transform: scale(1); }
+  100% { transform: scale(1);
+    opacity: 1;
+  }
+}
+
 

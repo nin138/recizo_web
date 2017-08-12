@@ -39,16 +39,22 @@
         }
         &__hu {
           &--l {
+            opacity: 0;
             position: absolute;
             width: 60%;
             top: 2rem;
             left: 0;
+            transition: all 1s;
+            transform: scale(.2,.2);
           }
           &--r {
+            opacity: 0;
             position: absolute;
             width: 60%;
             top: 2rem;
             right: 0;
+            transition: all 1s ease-in-out;
+            transform: scale(.2,.2);
           }
         }
       }
@@ -123,4 +129,5 @@
     }
   }
 }
+
 
