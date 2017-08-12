@@ -26,9 +26,31 @@
     text-align: center;
     &__item {
       &--2 {
+        position: relative;
         opacity: 0;
         transition: all 0.5s;
         transform: translateY(-20vh);
+        text-align: right;
+        &:nth-child(2n) {
+          text-align: left;
+        }
+        &__img {
+          width: 60%;
+        }
+        &__hu {
+          &--l {
+            position: absolute;
+            width: 60%;
+            top: 2rem;
+            left: 0;
+          }
+          &--r {
+            position: absolute;
+            width: 60%;
+            top: 2rem;
+            right: 0;
+          }
+        }
       }
       &--3 {
       }
