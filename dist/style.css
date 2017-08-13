@@ -262,9 +262,9 @@ header {
   }
   .main__h2 {
     border-radius: 1rem;
-    width: 80%;
+    width: 90%;
     padding: .5rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin: 2rem auto 0;
   }
   .main__content-wrap {
@@ -272,7 +272,7 @@ header {
     flex-wrap: wrap;
   }
   .main__content-wrap__item--2 {
-    width: calc(50% - 1rem);
+    width: 100%;
     margin: .5rem;
   }
   .main__content-wrap__item--3 {
