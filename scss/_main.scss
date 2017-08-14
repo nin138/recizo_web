@@ -12,6 +12,7 @@
     border-bottom: solid 4px;
     width: 100%;
     display: block;
+    border-radius: 1rem;
   }
 
   &__h2 {
@@ -24,6 +25,7 @@
   &__content-wrap {
     display: flex;
     text-align: center;
+    font-size: 1.2rem;
     &__item {
       &--2 {
         position: relative;
@@ -33,6 +35,10 @@
         text-align: right;
         &:nth-child(2n) {
           text-align: left;
+        }
+        &__p {
+          font-size: 1.2rem;
+          text-align: center;
         }
         &__img {
           width: 80%;
