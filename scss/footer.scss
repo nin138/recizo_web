@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: #fff;
+  padding: 1rem;
+  white-space: nowrap;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  font-size: .7rem;
+  & img {
+    width: 100%;
+    height: auto;
+  }
+}

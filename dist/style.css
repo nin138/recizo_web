@@ -102,6 +102,7 @@ input, select {
 
 body {
   background: #ffe6b2;
+  font-family: 'Rounded Mplus 1c', Hiragino Kaku Gothic ProN, Arial, Meiryo, sans-serif;
 }
 
 p {
@@ -121,8 +122,23 @@ header {
     height: 40vh;
   }
 }
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: #fff;
+  padding: 1rem;
+  white-space: nowrap;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  font-size: .7rem;
+}
+.footer img {
+  width: 100%;
+  height: auto;
+}
+
 .main {
-  font-family: 'Rounded Mplus 1c', Hiragino Kaku Gothic ProN, Arial, Meiryo, sans-serif;
   background: #fff;
   box-sizing: border-box;
   max-width: 1200px;

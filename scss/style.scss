@@ -4,12 +4,14 @@
 //
 body {
   background: $color-bg;
+  font-family: 'Rounded Mplus 1c', Hiragino Kaku Gothic ProN, Arial, Meiryo, sans-serif;
 }
 p {
   letter-spacing: 2px;
   line-height: 1.5rem;
 }
 @import "header";
+@import "footer";
 @import "main";
 @import "main_small";
 @import "main_pc";
