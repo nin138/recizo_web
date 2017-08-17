@@ -349,7 +349,7 @@ header {
     margin: 4rem auto;
   }
   .main__func-description-area {
-    padding: 4rem;
+    padding: 5rem 4rem 4rem;
   }
   .main__func-description-area__wrap {
     justify-content: space-between;
