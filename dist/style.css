@@ -112,7 +112,8 @@ p {
 header {
   width: 100%;
   height: calc(100vh - 12rem);
-  background: #e6e6e6;
+  background: url("../img/LP_top_pre.png") center;
+  background-size: cover;
 }
 
 @media (max-width: 760px) {
@@ -272,6 +273,7 @@ header {
     padding: .5rem;
     font-size: 1.2rem;
     margin: 2rem auto 0;
+    transform: translateY(-1.5rem);
   }
   .main__content-wrap {
     font-size: .7rem;

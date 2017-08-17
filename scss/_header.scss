@@ -1,7 +1,8 @@
 header {
   width: 100%;
   height: calc(100vh - 12rem);
-  background: #e6e6e6;
+  background: url("../img/LP_top_pre.png") center;
+  background-size: cover;
 }
 @media (max-width:$breakpoint){
   header {
