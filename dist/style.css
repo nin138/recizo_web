@@ -111,7 +111,7 @@ p {
 
 header {
   width: 100%;
-  height: calc(100vh - 12rem);
+  height: calc(100vh - 20rem);
   background: url("../img/LP_top_pre.png") center;
   background-size: cover;
 }
