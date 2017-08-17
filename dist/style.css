@@ -111,7 +111,7 @@ p {
 
 header {
   width: 100%;
-  height: calc(100vh - 20rem);
+  height: calc(100vh - 14rem);
   background: url("../img/LP_top_pre.png") center;
   background-size: cover;
 }
@@ -315,17 +315,17 @@ header {
 @media (min-width: 761px) {
   .main {
     width: 80%;
-    padding: 4rem 10% 0;
+    padding: 2rem 10% 0;
   }
   .main__h1 {
-    margin-bottom: 4rem;
-    font-size: 4rem;
+    margin-bottom: 2rem;
+    font-size: 3.5rem;
   }
   .main__h1__small {
     font-size: 2rem;
   }
   .main__border {
-    margin: 4rem 0;
+    margin: 2rem 0;
   }
   .main__h2 {
     margin: 4rem auto;

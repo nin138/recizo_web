@@ -1,17 +1,17 @@
 @media (min-width:$breakpoint + 1px) {
   .main {
     width: 80%;
-    padding: 4rem 10% 0;
+    padding: 2rem 10% 0;
     $space-size: 4rem;
     &__h1 {
-      margin-bottom: $space-size;
-      font-size: 4rem;
+      margin-bottom: $space-size/2;
+      font-size: 3.5rem;
       &__small {
         font-size: 2rem;
       }
     }
     &__border {
-      margin: $space-size 0;
+      margin: $space-size/2 0;
     }
 
     &__h2 {
