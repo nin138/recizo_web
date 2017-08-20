@@ -156,6 +156,7 @@ p {
   font-weight: bold;
 }
 .header__wrap__right__banner {
+  max-width: 280px;
   width: 70%;
   margin: 0 auto;
   cursor: pointer;
