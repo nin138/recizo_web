@@ -110,15 +110,57 @@ p {
   line-height: 1.5rem;
 }
 
-header {
+.header {
   width: 100%;
   height: calc(100vh - 14rem);
-  background: url("../img/LP_top_pre.png") center;
+  background: url("../img/LP_top.png") center;
   background-size: cover;
+  position: relative;
+}
+.header__wrap {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.header__wrap__left {
+  padding: 1rem;
+  flex: 1;
+  height: auto;
+}
+.header__wrap__right {
+  padding: 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-shadow: 0 0 10px white;
+}
+.header__wrap__right__text {
+  white-space: nowrap;
+  font-size: 2rem;
+  text-shadow: inherit;
+  font-weight: bold;
+}
+.header__wrap__right__h1 {
+  text-shadow: inherit;
+  font-weight: bold;
+  font-size: 6rem;
+  padding: 1rem;
+}
+.header__wrap__right__kana {
+  text-shadow: inherit;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.header__wrap__right__banner {
+  width: 70%;
+  margin: 0 auto;
 }
 
 @media (max-width: 760px) {
-  header {
+  .header {
     height: 40vh;
   }
 }
