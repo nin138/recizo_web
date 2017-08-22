@@ -113,7 +113,7 @@ p {
 .header {
   width: 100%;
   height: calc(100vh - 14rem);
-  background: url("../img/LP_top.png") center;
+  background: url("../img/LP_top2.png") center;
   background-size: cover;
   position: relative;
 }
@@ -122,17 +122,22 @@ p {
   width: 70%;
   display: flex;
   align-items: center;
+  justify-content: space-around;
   margin: 0 auto;
 }
 .header__wrap__left {
+  flex: 1 1 50%;
+  height: auto;
+  text-align: right;
+}
+.header__wrap__left img {
+  width: 100%;
   max-width: 400px;
-  padding: 1rem;
-  flex: 1;
   height: auto;
 }
 .header__wrap__right {
-  padding: 1rem;
-  flex: 1;
+  margin-top: 1rem;
+  flex: 1 1 50%;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -145,10 +150,13 @@ p {
   font-weight: bold;
 }
 .header__wrap__right__h1 {
+  text-align: center;
+  margin: 0 auto;
+  width: 90%;
   text-shadow: inherit;
   font-weight: bold;
   font-size: 6rem;
-  padding: 1rem;
+  padding: 1rem 0;
 }
 .header__wrap__right__kana {
   text-shadow: inherit;
@@ -156,8 +164,8 @@ p {
   font-weight: bold;
 }
 .header__wrap__right__banner {
-  max-width: 280px;
-  width: 70%;
+  max-width: 250px;
+  width: 50%;
   margin: 0 auto;
   cursor: pointer;
   transition: all .2s;

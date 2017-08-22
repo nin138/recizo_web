@@ -1,7 +1,7 @@
 .header {
   width: 100%;
   height: calc(100vh - 14rem);
-  background: url("../img/LP_top.png") center;
+  background: url("../img/LP_top2.png") center;
   background-size: cover;
   position: relative;
   &__wrap {
@@ -9,16 +9,21 @@
     width: 70%;
     display: flex;
     align-items: center;
+    justify-content: space-around;
     margin: 0 auto;
     &__left {
-      max-width: 400px;
-      padding: 1rem;
-      flex: 1;
+      flex: 1 1 50%;
       height: auto;
+      text-align: right;
+      & img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+      }
     }
     &__right {
-      padding: 1rem;
-      flex: 1;
+      margin-top: 1rem;
+      flex: 1 1 50%;
       display: flex;
       flex-direction: column;
       text-align: center;
@@ -30,10 +35,13 @@
         font-weight: bold;
       }
       &__h1 {
+        text-align: center;
+        margin: 0 auto;
+        width: 90%;
         text-shadow: inherit;
         font-weight: bold;
         font-size: 6rem;
-        padding: 1rem;
+        padding: 1rem 0;
       }
       &__kana {
         text-shadow: inherit;
@@ -41,8 +49,8 @@
         font-weight: bold;
       }
       &__banner {
-        max-width: 280px;
-        width: 70%;
+        max-width: 250px;
+        width: 50%;
         margin: 0 auto;
         cursor: pointer;
         transition: all .2s;
