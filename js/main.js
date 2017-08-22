@@ -7,7 +7,7 @@
   var delay = 300;
   window.addEventListener("load", function () {
     setTimeout(function () {
-      return window.scrollTo(0, 60);
+      return window.scrollTo(0, 0);
     }, 1);
     var content1 = document.getElementsByClassName("slide-label-content1")[0];
     var descArea = document.getElementsByClassName("main__func-description-area__wrap");
