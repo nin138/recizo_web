@@ -152,7 +152,7 @@ p {
   font-weight: bold;
 }
 .header__wrap__right__h1 {
-  margin: 0 auto;
+  margin: 1.5rem auto 0;
   text-align: center;
   width: 25vw;
   min-width: 300px;
