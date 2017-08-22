@@ -124,12 +124,15 @@
     font-size: 2rem;
     font-weight: bold;
     &__banner {
-      width: 100%;
+      width: 80%;
       margin: auto;
-      max-width: 400px;
-      &__img:hover {
-        cursor: pointer;
-        transform: scale(1.2, 1.2);
+      max-width: 300px;
+      cursor: pointer;
+      &__img {
+        transition: all .2s;
+        &:hover {
+        transform: scale(1.2);
+        }
       }
     }
   }
