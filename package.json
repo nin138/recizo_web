@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "scripts": {
     "watch": "sass --style expanded --watch scss/style.scss:dist/style.css",
-    "sass": "sass --sourcemap=none --style compressed scss/style.scss:dist/style.css"
+    "sass": "sass --sourcemap=none --style compressed scss/style.scss:dist/style.css",
+    "babel": "babel ./js/_main.js --out-file ./js/main.js"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
   },
   "devDependencies": {
   },
