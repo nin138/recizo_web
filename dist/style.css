@@ -224,9 +224,15 @@ p {
   margin-top: 3rem;
   font-size: .7rem;
 }
-.footer img {
-  width: 100%;
-  height: auto;
+.footer__credit {
+  font-size: 1.2rem;
+}
+.footer__credit__title {
+  font-size: 1.3rem;
+  margin: .5rem;
+}
+.footer__credit__body {
+  margin-left: 10%;
 }
 
 .main {

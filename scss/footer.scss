@@ -8,8 +8,14 @@
   flex-wrap: wrap;
   margin-top: 3rem;
   font-size: .7rem;
-  & img {
-    width: 100%;
-    height: auto;
+  &__credit {
+    font-size: 1.2rem;
+    &__title {
+      font-size: 1.3rem;
+      margin: .5rem;
+    }
+    &__body {
+      margin-left: 10%;
+    }
   }
 }
