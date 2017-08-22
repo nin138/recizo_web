@@ -6,6 +6,9 @@
   var windowSize = window.screen.height;
   var delay = 300;
   window.addEventListener("load", function () {
+    setTimeout(function () {
+      return window.scrollTo(0, 60);
+    }, 1);
     var content1 = document.getElementsByClassName("slide-label-content1")[0];
     var descArea = document.getElementsByClassName("main__func-description-area__wrap");
     var slide_label = document.getElementsByClassName("slide-in-label");
