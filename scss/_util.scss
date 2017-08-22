@@ -49,12 +49,12 @@
 
 .slide-in-item {
   transition: all .5s ease-in;
-  transform: translateY(20vh);
+  transform: translateY(10vh);
   opacity: 0;
 }
 .slide-reverse {
   transition: all .5s ease-in;
-  transform: translateY(-20vh);
+  transform: translateY(-10vh);
   opacity: 0;
 }
 .main__func-description-area__wrap__text__point ,.main__func-description-area__wrap__text__h3,.main__func-description-area__wrap__text__description {
